@@ -1,13 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import Navbar from "./pages/Navbar";
+import Root from "./pages/Root";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Navbar />} />
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Root />} />
       </Routes>
     </div>
   );

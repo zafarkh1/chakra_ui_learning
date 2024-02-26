@@ -2,9 +2,17 @@ import { Box, Button, Flex, HStack, Heading, Text } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Flex as={"nav"} alignItems={"center"} justifyContent={"space-between"}>
+    <Flex
+      as={"nav"}
+      alignItems={"center"}
+      justifyContent={"space-between"}
+      py={"20px"}
+    >
       <Heading as={"h1"}>Zafar</Heading>
-      <HStack spacing={"30px"}>
+      <HStack
+        spacing={{ sm: "15px", lg: "30px" }}
+        display={{ base: "none", sm: "flex" }}
+      >
         <Box bg={"gray.400"} p={"10px"}>
           Z
         </Box>

@@ -1,3 +1,4 @@
+import { Box, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 
 const Dashboard = () => {
@@ -10,7 +11,24 @@ const Dashboard = () => {
   //   borderRadius: "10px",
   //   fontSize: "25px",
   // };
-  return (<></>
+  return (
+    <SimpleGrid py={"10px"} spacing={10} minChildWidth={"200px"}>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+      <Box bg={"grey.200"} h={"200px"} border={"1px solid"}></Box>
+    </SimpleGrid>
     // <Container as={"section"} maxW={"4xl"}>
     //   <Heading p={"20px"}>Learning Chakra UI</Heading>
     //   <Text ml={"20px"}>

@@ -1,41 +1,38 @@
-import { Box, Container, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 
-const customStyle = {
-  textAlign: "center",
-  bg: "red.400",
-  mt: "1rem",
-  py: "1rem",
-  color: "white",
-  borderRadius: "5px",
-  fontWeight: "bolder",
+const Dashboard = () => {
+  // const customStyle = {
+  //   textAlign: "center",
+  //   color: "white",
+  //   p: "15px",
+  //   bg: "purple.400",
+  //   my: "15px",
+  //   borderRadius: "10px",
+  //   fontSize: "25px",
+  // };
+  return (<></>
+    // <Container as={"section"} maxW={"4xl"}>
+    //   <Heading p={"20px"}>Learning Chakra UI</Heading>
+    //   <Text ml={"20px"}>
+    //     Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+    //     consequuntur neque minima deleniti nulla accusamus.
+    //   </Text>
+    //   <Text color={"blue.300"} ml={"20px"}>
+    //     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+    //     temporibus minima.
+    //   </Text>
+    //   <Box
+    //     p={"20px"}
+    //     bg={"orange.400"}
+    //     color={"white"}
+    //     borderRadius={"5px"}
+    //     mt={"10px"}
+    //   >
+    //     It's just simple div
+    //   </Box>
+    //   <Box sx={customStyle}>It's box</Box>
+    // </Container>
+  );
 };
-
-const Dashboard = () => (
-  <Container maxW="4xl">
-    <Heading textAlign="center">Hello Chakra UI</Heading>
-    <Text ml="10px">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos
-      tenetur? Voluptatem natus quam, totam eligendi laborum libero officiis
-      beatae!
-    </Text>
-    <Text color={"blue"} mt={"10px"}>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-      necessitatibus cumque sequi tenetur possimus itaque, maiores cupiditate
-      laudantium quod asperiores facere consectetur eum cum iure, ullam
-      doloribus omnis? Placeat, culpa.
-    </Text>
-    <Box
-      bg={"orange.400"}
-      p={"1rem"}
-      borderRadius={"10px"}
-      color={"white"}
-      fontWeight={"bold"}
-    >
-      <Text as={"span"}>It's me, boy!</Text>
-    </Box>
-    <Box sx={customStyle}>It's over</Box>
-  </Container>
-);
 
 export default Dashboard;

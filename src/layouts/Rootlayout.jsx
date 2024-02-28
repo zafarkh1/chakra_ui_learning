@@ -10,12 +10,12 @@ const Rootlayout = () => {
       <Grid bg={"gray.100"} templateColumns="repeat(6, 1fr)">
         <GridItem
           as={"aside"}
-          bg={"purple.500"}
+          bg={"brand.600"}
           colSpan={{ base: 6, lg: 2, xl: 1 }}
-          minHeight={{lg: '100vh'}}
-          p={{base: '15px', lg: '25px'}}
+          minHeight={{ lg: "100vh" }}
+          p={{ base: "15px", lg: "25px" }}
         >
-          <Sidebar/>
+          <Sidebar />
         </GridItem>
         <GridItem as={"main"} colSpan={{ base: 6, lg: 4, xl: 5 }} p={"40px"}>
           <Navbar />
